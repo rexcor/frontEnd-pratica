@@ -19,7 +19,7 @@
     <title>Amazing Places</title>
   </head>
   <body>
-    <nav class="menu">
+    <nav class="menu js-menu">
       <ul>
         <li><a href="#places">Places</a></li>
         <li><a href="#faq">Faq</a></li>
@@ -27,9 +27,9 @@
         <li><a href="#dev">Dev</a></li>
       </ul>
     </nav>
-    <section class="grid-section places" id="places">
+    <section class="grid-section places js-scroll" id="places">
       <h1 class="titulo">Amazing Places</h1>
-      <ul class="places-lista">
+      <ul class="places-lista js-tabmenu">
         <li>
           <img src="img/image1.jpg" />
         </li>
@@ -49,7 +49,7 @@
           <img src="img/image6.jpg" />
         </li>
       </ul>
-      <div class="places-descricao">
+      <div class="places-descricao js-tabcontent">
         <section>
           <h2>Dry Forest</h2>
           <p>
@@ -184,28 +184,28 @@
         </section>
       </div>
     </section>
-    <section class="grid-section faq" id="faq">
+    <section class="grid-section faq js-scroll" id="faq">
       <h1 class="titulo">FAQ</h1>
-      <dl class="faq-lista">
-        <dt>Lorem ipsum dolor sit amet.</dt>
+      <dl class="faq-lista js-accordion">
+        <dt>Lorem ipsum dolor sit amet?</dt>
         <dd>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
           aperiam nesciunt, quam accusamus ut vel facilis sunt commodi corrupti
           qui?
         </dd>
-        <dt>Lorem ipsum dolor sit amet.</dt>
+        <dt>Lorem ipsum dolor sit amet?</dt>
         <dd>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
           aperiam nesciunt, quam accusamus ut vel facilis sunt commodi corrupti
           qui?
         </dd>
-        <dt>Lorem ipsum dolor sit amet.</dt>
+        <dt>Lorem ipsum dolor sit amet?</dt>
         <dd>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
           aperiam nesciunt, quam accusamus ut vel facilis sunt commodi corrupti
           qui?
         </dd>
-        <dt>Lorem ipsum dolor sit amet.</dt>
+        <dt>Lorem ipsum dolor sit amet?</dt>
         <dd>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
           aperiam nesciunt, quam accusamus ut vel facilis sunt commodi corrupti
@@ -213,7 +213,7 @@
         </dd>
       </dl>
     </section>
-    <section class="grid-section contato" id="contato">
+    <section class="grid-section contato js-scroll" id="contact">
       <h1 class="titulo">Contact</h1>
       <div class="mapa">
         <img src="img/mapa.png" alt="" />
@@ -228,5 +228,6 @@
     <footer class="copy">
       <p>all rights reserved</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
