@@ -330,5 +330,5 @@ body {
 }
 
 [data-semana].aberto::after {
-  background-color: green;
+  background-color: rgb(5, 255, 5);
 }
